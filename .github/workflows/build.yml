@@ -31,4 +31,4 @@ jobs:
     - name: Build
       id: build
       run: |
-        qmk mass-compile -f manufacturer="ZSA Technology Labs" -km ${{ matrix.keymap }} -e SKIP_GIT=1
+        qmk compile -kb moonlander -km default
