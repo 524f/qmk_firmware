@@ -31,4 +31,4 @@ jobs:
     - name: Build
       id: build
       run: |
-        qmk compile -kb moonlander -km default
+        qmk compile -kb zsa/moonlander -km default
